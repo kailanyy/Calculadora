@@ -1,0 +1,102 @@
+body{
+  background-color: #000;
+  background-image: url('https://wallpaperaccess.com/full/6731132.jpg');
+  color: #000;
+  margin: 0px;
+  font-family: 'Trebuchet MS';
+}
+
+.container{
+  text-align: justify;
+  line-height: 25px;
+  color: #000;
+}
+
+.quiz{
+  width: 30%;
+  margin: auto;
+  border: 2px solid #ffb2dc;
+  background-color: #ffbbd5;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  white-space: pre-line;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ff02ab;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.input{
+  width:50%;
+  text-align: center;
+}
+
+label{
+  color: #ff02ab;
+  margin-bottom: 50;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  color: #ff02ab;
+  font-weight: bold;
+}
+
+img{
+  width: 400px;
+}
+
+#newQuestion {
+  position: relative;
+  border: none;
+  font-size: 12px;
+  background-color: #ff02ab;
+  color: #fff;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
