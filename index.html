@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="quiz">
+            <label>Quanto é</label>
+            <label id='n1' onclick="ask()"></label>
+            <label id='operation' onclick="ask()"></label>
+            <label id='n2' onclick="ask()"></label>
+            <label>?</label><br>
+
+            <input class="w3-input  w3-animate-input" type="number" id="answer"><br>
+            <button class="button" style="vertical-align:middle" onclick="ask()"><span>Ver Resultado</span></button><br>
+
+            <p id="p"></p>
+            <img id="img" class="imagem">
+            <div id="button2"></div>
+        </div>
+
+    </div>
+    <script src="calc.js"></script>
+</body>
+
+</html>
